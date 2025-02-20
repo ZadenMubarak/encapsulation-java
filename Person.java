@@ -1,14 +1,16 @@
 public class Person {
 
-    private String name = "zaden";
-    private int age = 20;
+    //set protected 
+
+    private String name;
+    private int age;
 
     public String getName(){
-
         return this.name;
     }
 
     public void setName(String name){
+
         this.name = name;
     }
 
@@ -19,4 +21,5 @@ public class Person {
     public void setAge(int age){
         this.age = age;
     }
+    
 }
